@@ -1,0 +1,41 @@
+name: "Bug report / 不具合報告"
+description: "Report a problem with AccountHub / AccountHubの不具合を報告"
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: "This report will be public. Do not include passwords, tokens, personal information, private conversations, or unredacted screenshots/logs. / この報告は公開されます。秘密情報や個人情報は含めないでください。"
+  - type: textarea
+    id: summary
+    attributes:
+      label: "What happened? / 何が起きましたか"
+      description: "Describe the problem without private data. / 個人情報を除いて説明してください。"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: "Steps to reproduce / 再現手順"
+      description: "A minimal sequence helps us investigate. / 最小限の手順を書いてください。"
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: "Expected behavior / 期待した動作"
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: "Environment / 利用環境"
+      description: "Device, OS, browser or app version if relevant. / 必要に応じて端末、OS、ブラウザやアプリのバージョンを記載してください。"
+    validations:
+      required: false
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: "Privacy check / 公開前の確認"
+      options:
+        - label: "I removed secrets, personal information, and private content. / 秘密情報、個人情報、非公開情報を除きました。"
+          required: true
