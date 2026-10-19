@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "Private security report / 非公開のセキュリティ報告"
+    url: "https://github.com/k-ucchy/accounthub-issues/security/advisories/new"
+    about: "Report vulnerabilities privately; do not post them as public issues. / 脆弱性は公開Issueに書かず、非公開で報告してください。"
