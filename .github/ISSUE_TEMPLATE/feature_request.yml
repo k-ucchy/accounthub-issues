@@ -1,0 +1,26 @@
+name: "Feature request / 機能要望"
+description: "Suggest an improvement to AccountHub / AccountHubの改善を提案"
+title: "[Feature] "
+body:
+  - type: markdown
+    attributes:
+      value: "This request will be public. Please avoid personal or confidential details. / この要望は公開されます。個人情報や機密情報は含めないでください。"
+  - type: textarea
+    id: problem
+    attributes:
+      label: "What are you trying to do? / 何をしたいですか"
+      description: "Describe your goal or difficulty. / 目的や困っていることを説明してください。"
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: "What would help? / どのような改善が役立ちますか"
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: "Additional context / 補足"
+    validations:
+      required: false
